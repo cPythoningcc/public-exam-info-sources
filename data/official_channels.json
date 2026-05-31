@@ -160,6 +160,414 @@
       "useFor": [
         "武汉事业单位报名入口"
       ]
+    },
+    {
+      "name": "国家公务员局",
+      "url": "http://www.scs.gov.cn/",
+      "type": "national_official",
+      "regions": [
+        "全国"
+      ],
+      "useFor": [
+        "国家公务员",
+        "国考公告",
+        "补充录用",
+        "政策信息"
+      ],
+      "notes": "国家公务员考试和中央机关公务员招录权威入口。"
+    },
+    {
+      "name": "国家公务员局国考专题/报名系统",
+      "url": "http://bm.scs.gov.cn/",
+      "type": "national_official_system",
+      "regions": [
+        "全国"
+      ],
+      "useFor": [
+        "国考专题",
+        "报名",
+        "职位表",
+        "报考指南",
+        "准考证",
+        "成绩查询"
+      ],
+      "notes": "具体年度专题通常在该域名下，如 /kl2026。"
+    },
+    {
+      "name": "人力资源和社会保障部",
+      "url": "https://www.mohrss.gov.cn/",
+      "type": "national_official",
+      "regions": [
+        "全国"
+      ],
+      "useFor": [
+        "就业政策",
+        "事业单位人事管理",
+        "三支一扶政策",
+        "人社公告"
+      ]
+    },
+    {
+      "name": "中国人事考试网",
+      "url": "https://www.cpta.com.cn/",
+      "type": "national_exam_official",
+      "regions": [
+        "全国"
+      ],
+      "useFor": [
+        "专业技术资格考试",
+        "注册城乡规划师",
+        "报名通知",
+        "考试安排",
+        "成绩查询"
+      ]
+    },
+    {
+      "name": "中国公共招聘网",
+      "url": "https://job.mohrss.gov.cn/",
+      "type": "national_public_employment",
+      "regions": [
+        "全国"
+      ],
+      "useFor": [
+        "公共就业招聘",
+        "部分政府/事业/国企招聘线索"
+      ],
+      "notes": "就业招聘公共服务平台，招考类仍需回官方公告核验。"
+    },
+    {
+      "name": "广东省人民政府门户网站",
+      "url": "https://www.gd.gov.cn/",
+      "type": "provincial_government",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "政府公告",
+        "重点领域信息公开",
+        "三支一扶/就业信息转载"
+      ]
+    },
+    {
+      "name": "广东省人社厅事业单位招聘栏目",
+      "url": "https://hrss.gd.gov.cn/zwgk/sydwzp/",
+      "type": "provincial_hrss_column",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "广东事业单位招聘公告",
+        "岗位表",
+        "拟聘公示"
+      ]
+    },
+    {
+      "name": "广东省事业单位公开招聘信息管理系统",
+      "url": "https://ggfw.hrss.gd.gov.cn/sydwbk/",
+      "type": "official_application_system",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "广东事业单位集中招聘报名",
+        "岗位查询",
+        "报名确认"
+      ]
+    },
+    {
+      "name": "广东政务服务网-事业单位公开招聘考试报名指南",
+      "url": "https://www.gdzwfw.gov.cn/portal/simple-guide/1144180200730332XF4442111029003",
+      "type": "government_service_guide",
+      "regions": [
+        "广东"
+      ],
+      "useFor": [
+        "事业单位公开招聘报名入口说明",
+        "政务服务事项指南"
+      ]
+    },
+    {
+      "name": "广州市人社局事业单位招聘公告栏目",
+      "url": "https://rsj.gz.gov.cn/ywzt/rszdgg/sydwgkzp/sydwzpgg/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "广州"
+      ],
+      "useFor": [
+        "广州事业单位招聘公告",
+        "岗位表",
+        "公示"
+      ]
+    },
+    {
+      "name": "广州市人社局事业单位招聘网上报名",
+      "url": "https://rsj.gz.gov.cn/ywzt/rszdgg/sydwgkzp/sydwzpwsbm/",
+      "type": "official_application_system",
+      "regions": [
+        "广东",
+        "广州"
+      ],
+      "useFor": [
+        "广州事业单位招聘报名入口"
+      ]
+    },
+    {
+      "name": "广州市政府事业单位招聘栏目",
+      "url": "https://www.gz.gov.cn/zwgk/rsgz/sydwzp/",
+      "type": "municipal_government_column",
+      "regions": [
+        "广东",
+        "广州"
+      ],
+      "useFor": [
+        "广州事业单位招聘公告汇总"
+      ]
+    },
+    {
+      "name": "深圳市人社局公职人员招考栏目",
+      "url": "https://hrss.sz.gov.cn/gzryzk/index.html",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "深圳"
+      ],
+      "useFor": [
+        "深圳事业单位招聘",
+        "公职人员招考",
+        "公告公示"
+      ]
+    },
+    {
+      "name": "深圳市人事考评报名系统",
+      "url": "https://hrsspub.sz.gov.cn/nptmis/",
+      "type": "official_application_system",
+      "regions": [
+        "广东",
+        "深圳"
+      ],
+      "useFor": [
+        "深圳人事考试报名",
+        "招聘报名"
+      ],
+      "notes": "具体招聘是否使用该系统以公告为准。"
+    },
+    {
+      "name": "东莞市人社局公开招聘栏目",
+      "url": "https://dghrss.dg.gov.cn/xwzx/gsgg/gkzp/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "东莞"
+      ],
+      "useFor": [
+        "东莞公开招聘",
+        "事业单位招聘",
+        "编外招聘",
+        "成绩公示"
+      ]
+    },
+    {
+      "name": "东莞市人社局编制内人员招聘栏目",
+      "url": "https://dghrss.dg.gov.cn/xwzx/gsgg/gkzp/zpgg/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "东莞"
+      ],
+      "useFor": [
+        "东莞事业单位/编制内招聘公告"
+      ]
+    },
+    {
+      "name": "中山市人社局事业单位公开招聘栏目",
+      "url": "https://hrss.zs.gov.cn/xxgk/rsxx/sydwgkzp/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "中山"
+      ],
+      "useFor": [
+        "中山事业单位公开招聘公告",
+        "岗位表",
+        "拟聘公示"
+      ]
+    },
+    {
+      "name": "中山市人社局公告公示栏目",
+      "url": "https://hrss.zs.gov.cn/tzgg/gggs/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "中山"
+      ],
+      "useFor": [
+        "中山招聘公告",
+        "人事公示"
+      ]
+    },
+    {
+      "name": "江门市人社局事业单位公开招聘/人事考试栏目",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/sylm/rsks/syks/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "江门"
+      ],
+      "useFor": [
+        "江门事业单位招聘",
+        "人事考试信息"
+      ]
+    },
+    {
+      "name": "汕尾市人社局人事考试专题",
+      "url": "https://www.shanwei.gov.cn/swrsj/ztzl/rsks/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "汕尾"
+      ],
+      "useFor": [
+        "汕尾人事考试",
+        "招聘公告"
+      ]
+    },
+    {
+      "name": "汕尾市人社局事业单位招聘栏目",
+      "url": "https://www.shanwei.gov.cn/swrsj/ztzl/rsks/sydwzp/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "广东",
+        "汕尾"
+      ],
+      "useFor": [
+        "汕尾事业单位招聘公告"
+      ]
+    },
+    {
+      "name": "湖北省人社厅省直事业单位公开招聘专题",
+      "url": "http://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/",
+      "type": "provincial_hrss_column",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北省直事业单位公开招聘",
+        "公告",
+        "岗位表"
+      ]
+    },
+    {
+      "name": "湖北省人事考试网事业单位招聘考试专栏",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/hbssydwzpks/",
+      "type": "provincial_exam_column",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北事业单位招聘考试",
+        "公告",
+        "报名入口",
+        "成绩查询"
+      ]
+    },
+    {
+      "name": "宜昌市人社局事业单位公开招聘专栏",
+      "url": "http://rsj.yichang.gov.cn/list-63350-1.html",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "湖北",
+        "宜昌"
+      ],
+      "useFor": [
+        "宜昌事业单位招聘公告",
+        "岗位表",
+        "报考指南"
+      ]
+    },
+    {
+      "name": "宜昌人事考试服务平台",
+      "url": "https://ycrsks.sanxiacloud.com",
+      "type": "official_application_system",
+      "regions": [
+        "湖北",
+        "宜昌"
+      ],
+      "useFor": [
+        "宜昌事业单位报名",
+        "查询",
+        "缴费",
+        "准考证打印"
+      ]
+    },
+    {
+      "name": "荆门市人社局官网",
+      "url": "http://rsj.jingmen.gov.cn",
+      "type": "municipal_hrss",
+      "regions": [
+        "湖北",
+        "荆门"
+      ],
+      "useFor": [
+        "荆门事业单位招聘",
+        "人社公告",
+        "招聘信息"
+      ]
+    },
+    {
+      "name": "荆门人事考试网",
+      "url": "https://www.jmrsks.cn",
+      "type": "municipal_exam_site",
+      "regions": [
+        "湖北",
+        "荆门"
+      ],
+      "useFor": [
+        "荆门事业单位报名",
+        "招聘公告",
+        "考试信息"
+      ]
+    },
+    {
+      "name": "黄石市人社局公告公示栏目",
+      "url": "https://rsj.huangshi.gov.cn/xxgk/fdzdgknr/gggs/",
+      "type": "municipal_hrss_column",
+      "regions": [
+        "湖北",
+        "黄石"
+      ],
+      "useFor": [
+        "黄石事业单位招聘公告",
+        "公示公告"
+      ]
+    },
+    {
+      "name": "黄石人事考试专栏",
+      "url": "http://rsj.huangshi.gov.cn/rsksy/",
+      "type": "municipal_exam_column",
+      "regions": [
+        "湖北",
+        "黄石"
+      ],
+      "useFor": [
+        "黄石人事考试",
+        "事业单位招聘考试"
+      ]
+    },
+    {
+      "name": "潜江市人事考试网",
+      "url": "http://www.qjrsks.cn/",
+      "type": "municipal_exam_site",
+      "regions": [
+        "湖北",
+        "潜江"
+      ],
+      "useFor": [
+        "潜江事业单位招聘",
+        "报名入口",
+        "考试信息"
+      ]
     }
-  ]
+  ],
+  "updatedAt": "2026-05-31"
 }

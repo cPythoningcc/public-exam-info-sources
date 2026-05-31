@@ -311,6 +311,127 @@
         "本地招聘线索"
       ],
       "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "全国事业单位招聘网",
+      "url": "https://www.qgsydw.com/",
+      "type": "recruitment_platform",
+      "regions": [
+        "全国",
+        "广东",
+        "湖北"
+      ],
+      "useFor": [
+        "事业单位招聘公告",
+        "网上报名系统",
+        "附件下载"
+      ],
+      "trustLevel": "平台/线索来源，需以公告发布单位核验",
+      "notes": "很多广东地区单位单独招聘会使用该平台报名。"
+    },
+    {
+      "name": "全国事业单位招聘网报名系统",
+      "url": "https://qgsydw.com/qgsydw/registration/comregistration/index.html",
+      "type": "application_platform",
+      "regions": [
+        "全国",
+        "广东"
+      ],
+      "useFor": [
+        "事业单位招聘报名入口"
+      ],
+      "trustLevel": "报名平台，具体项目以官方公告指定为准"
+    },
+    {
+      "name": "事业单位招考网报名系统",
+      "url": "https://www.sydwzk.cn/",
+      "type": "application_platform",
+      "regions": [
+        "全国",
+        "广东"
+      ],
+      "useFor": [
+        "部分事业单位招聘报名系统"
+      ],
+      "trustLevel": "报名平台，具体项目以官方公告指定为准"
+    },
+    {
+      "name": "湖北事业单位招录网",
+      "url": "https://www.sydwzl.com/hubei/index.html",
+      "type": "exam_aggregator",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北事业单位公告线索",
+        "报名入口线索"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "事业编湖北栏目",
+      "url": "https://www.shiyebian.com/hubei/index.html",
+      "type": "exam_aggregator",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北事业单位招聘公告汇总",
+        "报名时间线索"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "华图湖北事业单位报名入口栏目",
+      "url": "https://sydw.huatu.com/hb/bmrk/",
+      "type": "training_institution",
+      "regions": [
+        "湖北"
+      ],
+      "useFor": [
+        "湖北事业单位报名入口线索"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "华图宜昌分校",
+      "url": "https://yichang.huatu.com/",
+      "type": "training_institution",
+      "regions": [
+        "湖北",
+        "宜昌"
+      ],
+      "useFor": [
+        "宜昌公考/事业单位线索"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "格木宜昌分校",
+      "url": "https://yichang.gemu.cn/",
+      "type": "regional_training_institution",
+      "regions": [
+        "湖北",
+        "宜昌"
+      ],
+      "useFor": [
+        "宜昌事业单位/公务员线索"
+      ],
+      "trustLevel": "线索来源，需官方核验"
+    },
+    {
+      "name": "格木荆门分校",
+      "url": "https://jingmen.gemu.cn/",
+      "type": "regional_training_institution",
+      "regions": [
+        "湖北",
+        "荆门"
+      ],
+      "useFor": [
+        "荆门事业单位/公务员线索"
+      ],
+      "trustLevel": "线索来源，需官方核验"
     }
-  ]
+  ],
+  "updatedAt": "2026-05-31"
 }
