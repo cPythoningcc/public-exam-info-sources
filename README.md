@@ -9,14 +9,46 @@
 ```text
 .
 ├─ data/
-│  ├─ official_channels.json                 # 官方信息源清单
-│  ├─ aggregator_sources.json                # 机构/聚合网站线索源清单
+│  ├─ official_channels.json                    # 官方信息源清单
+│  ├─ aggregator_sources.json                   # 机构/聚合网站线索源清单
 │  └─ recruitment_leads_checked_2026-05-31.json # 已整理线索及官方核查状态
 ├─ docs/
-│  └─ methodology.md                         # 信息核查方法
+│  ├─ methodology.md                            # 信息核查方法
+│  └─ assets/
+│     └─ screenshots/                           # 数据预览与公开网站截图
 ├─ LICENSE
 └─ README.md
 ```
+
+## 截图预览
+
+### 数据预览
+
+招考线索官方核查数据预览：
+
+![招考线索官方核查数据预览](docs/assets/screenshots/data-recruitment-leads-preview.png)
+
+信息源清单预览：
+
+![公考信息源清单预览](docs/assets/screenshots/data-sources-preview.png)
+
+### 官方网站示例
+
+广东组织工作网：
+
+![广东组织工作网截图](docs/assets/screenshots/website-gdzz.png)
+
+湖北省人事考试网：
+
+![湖北省人事考试网截图](docs/assets/screenshots/website-hubei-exam.png)
+
+广东省人力资源和社会保障厅：
+
+![广东省人力资源和社会保障厅截图](docs/assets/screenshots/website-guangdong-hrss.png)
+
+湖北省自然资源厅招考录用栏目：
+
+![湖北省自然资源厅招考录用栏目截图](docs/assets/screenshots/website-hubei-nature.png)
 
 ## 使用建议
 
