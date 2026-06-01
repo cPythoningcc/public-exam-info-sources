@@ -1,0 +1,343 @@
+{
+  "generatedAt": "2026-06-01",
+  "title": "湖北省公考/公职类招聘官方源头清单",
+  "description": "整理湖北省级与全省17个市州/直管市/林区的公务员、选调/遴选、事业单位、三支一扶、教师、医疗卫生、辅警、社区等公职类招聘官方发布源头。优先收录 .gov.cn、人社/人事考试官方域名、官方报名系统和部门官网；不收录培训机构、聚合站作为正式源头。",
+  "disclaimer": "本清单用于监控和核验公开招考信息，不能替代最新官方公告、岗位表、报名系统资格审查和主管部门解释。个别地市专项岗位发布较分散，需按具体年度/批次二次核验。",
+  "priorityGuide": [
+    "省考、选调、遴选、事业单位统招、省直事业单位和三支一扶优先看湖北省人事考试网、湖北省人社厅专题和省级报名/考试服务入口。",
+    "地市事业单位和本地流程通知优先看市州人社局、人事考试院/考试网、政府门户人事信息或招考录用栏目。",
+    "教师招聘看教育局 + 人社局；医疗卫生招聘看卫健委 + 人社局；辅警看公安局公告公示 + 人社局/人事考试网；社区/社工看民政局、社会工作部、人社局和区县政府。",
+    "非 .gov.cn 的 pzhl.net 等报名系统，只有在官方公告或官方考试网明确指向时才作为官方指定技术系统使用。"
+  ],
+  "fields": {
+    "name": "官方来源名称",
+    "url": "入口URL",
+    "level": "省级/市级/州级/林区/系统/部门补充",
+    "region": "覆盖地区",
+    "publisherType": "发布主体类型",
+    "coverage": "常见覆盖考试或招聘类型",
+    "priority": "监控优先级，1最高",
+    "confidence": "核验置信度",
+    "notes": "使用备注"
+  },
+  "provincialSources": [
+    {
+      "name": "湖北省人事考试网",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/index.shtml",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "湖北省人社厅/湖北省人事考试院官方考试入口",
+      "coverage": ["公务员省考", "选调生", "遴选", "事业单位考试", "三支一扶", "法检雇员制辅助人员", "考试服务"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "位于湖北省人社厅 rst.hubei.gov.cn 官方域名下，是湖北省级公考/公职招聘考试核心监控源。"
+    },
+    {
+      "name": "湖北省人事考试网 - 招录聘类考试",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级人事考试招录聘栏目",
+      "coverage": ["机关单位考试", "事业单位考试", "其他考试", "招录聘公告与考务信息"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "按机关单位考试、事业单位考试、其他考试分类，是省级总巡检入口。"
+    },
+    {
+      "name": "湖北省人事考试网 - 湖北省公务员考试",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/jglyks/hbsgwyks/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级公务员考试栏目",
+      "coverage": ["湖北省考", "招考公告", "重要通知", "相关下载", "政策技术与考务解答", "拟录用公示"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "湖北省省市县乡考试录用公务员公告、职位表、报考指南等官方发布/查询入口之一。"
+    },
+    {
+      "name": "湖北省人事考试网 - 选调生考试",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/jglyks/hbsxtsks/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级选调生考试栏目",
+      "coverage": ["选调生", "招考公告", "重要通知", "相关下载"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "用于监控湖北选调生相关考试公告和考务通知。"
+    },
+    {
+      "name": "湖北省人事考试网 - 省直机关公开遴选",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/jglyks/hbsszjggklx/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级机关遴选栏目",
+      "coverage": ["省直机关公开遴选", "公开选调", "公告", "考务通知"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "用于监控湖北省直机关遴选/选调类信息。"
+    },
+    {
+      "name": "湖北省人事考试网 - 事业单位考试",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/zlplks/hbssydwzpks/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省级事业单位考试栏目",
+      "coverage": ["事业单位统招", "事业单位招聘公告", "重要通知", "政策技术与考务问答", "地市事业单位公告线索"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "省级事业单位统招和地市事业单位公告线索核心入口；地市公告仍需回到市州原站复核。"
+    },
+    {
+      "name": "湖北省人社厅 - 湖北省省直事业单位公开招聘专题",
+      "url": "https://rst.hubei.gov.cn/bmdt/ztzl/ywzl/hbsszsydwgkzp/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省人社厅专题",
+      "coverage": ["省直事业单位统一公开招聘", "招聘公告", "招聘人员公示", "岗位信息"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "省直事业单位招聘公告明确列为官方发布平台。"
+    },
+    {
+      "name": "湖北省人事考试网 - 考试报名",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/ksfw/ksbm/index.shtml",
+      "level": "系统",
+      "region": "湖北",
+      "publisherType": "省级考试服务入口",
+      "coverage": ["考试报名", "招聘考试注册", "缴费", "报名入口"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "部分招聘公告明确指定通过湖北省人事考试网完成注册、报名、查询和缴费。"
+    },
+    {
+      "name": "湖北省人事考试网 - 准考证下载",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/ksfw/zkzxz/index.shtml",
+      "level": "系统",
+      "region": "湖北",
+      "publisherType": "省级考试服务入口",
+      "coverage": ["准考证下载", "考务服务"],
+      "priority": 2,
+      "confidence": "high",
+      "notes": "报名后至笔试前重点监控。"
+    },
+    {
+      "name": "湖北省人事考试网 - 成绩查询",
+      "url": "https://rst.hubei.gov.cn/hbrsksw/ksfw/cjcx/index.shtml",
+      "level": "系统",
+      "region": "湖北",
+      "publisherType": "省级考试服务入口",
+      "coverage": ["笔试成绩", "考试成绩查询"],
+      "priority": 2,
+      "confidence": "high",
+      "notes": "笔试后重点监控。"
+    },
+    {
+      "name": "湖北省人社厅 - 通知公告",
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/tzgg/",
+      "level": "省级",
+      "region": "湖北",
+      "publisherType": "省人社厅通知公告栏目",
+      "coverage": ["三支一扶", "人社通知", "事业单位相关公告", "补充公告"],
+      "priority": 2,
+      "confidence": "high",
+      "notes": "三支一扶等省人社厅事项可与省人事考试网交叉监控。"
+    }
+  ],
+  "regionalSources": [
+    {
+      "region": "武汉",
+      "sources": [
+        {"name":"武汉市人民政府 - 招考录用","url":"https://www.wuhan.gov.cn/zwgk/xxgk/rsxx/gwyzl/","level":"市级","publisherType":"政府门户人事信息栏目","coverage":["事业单位","公务员本地通知","拟录用公示","面试/体检"],"priority":1,"confidence":"high","notes":"武汉市综合招考录用官方入口。"},
+        {"name":"武汉市人事考试院 - 网上报名","url":"https://www.whptc.org/ncms/wsbm.shtml","level":"系统","publisherType":"市人事考试院报名入口","coverage":["事业单位报名","准考证打印","成绩查询"],"priority":1,"confidence":"medium-high","notes":"2026武汉事业单位公告指定报名平台；抓取时证书校验异常，建议浏览器复核。"},
+        {"name":"武汉市教育局 - 招考录用","url":"https://jyj.wuhan.gov.cn/zfxxgk/fdzdgknr/qtzdgknr/zkly/","level":"市级","publisherType":"市教育局招考栏目","coverage":["教师","教育局直属单位事业单位","资格复审","拟聘公示"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"武汉市卫健委 - 公示公告","url":"https://wjw.wuhan.gov.cn/gsgg/","level":"市级","publisherType":"市卫健委公告栏目","coverage":["医疗卫生事业单位","拟聘公示","招聘公告"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"武汉市民政局 - 招考录用","url":"https://mzj.wuhan.gov.cn/zwgk_918/fdzdgk/zkly/","level":"市级","publisherType":"市民政局招考栏目","coverage":["民政系统事业单位","公示","社区工作者政策线索"],"priority":3,"confidence":"medium","notes":"社区干事常由各区发布，市民政局更多作补充。"}
+      ]
+    },
+    {
+      "region": "黄石",
+      "sources": [
+        {"name":"黄石市人社局 - 黄石人事考试专栏","url":"http://rsj.huangshi.gov.cn/rsksy/","level":"市级","publisherType":"市人社局人事考试栏目","coverage":["事业单位招聘","公务员本地通知","政府雇员","报名/准考证/成绩查询"],"priority":1,"confidence":"high","notes":"黄石人事考试核心入口。"},
+        {"name":"黄石市人社局 - 公告公示","url":"https://rsj.huangshi.gov.cn/xxgk/fdzdgknr/gggs/","level":"市级","publisherType":"市人社局公告栏目","coverage":["事业单位招聘公告","人社通知"],"priority":1,"confidence":"high","notes":"事业单位招聘公告源头。"},
+        {"name":"黄石市人民政府 - 招考录用","url":"https://www.huangshi.gov.cn/xxxgk/fdzdgknr/zkly/","level":"市级","publisherType":"政府门户招考栏目","coverage":["公务员招录","拟录用公示","事业单位/招考通知"],"priority":2,"confidence":"high","notes":"公务员本地流程和公示。"},
+        {"name":"黄石市教育局 - 重要通知","url":"https://jyj.huangshi.gov.cn/dt/zytz/","level":"市级","publisherType":"市教育局通知栏目","coverage":["教师招聘","直属学校招聘","骨干教师招聘"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"黄石市卫健委 - 招考录用","url":"https://wjw.huangshi.gov.cn/xxgk_21/fdzdgknr/zkly/","level":"市级","publisherType":"市卫健委招考栏目","coverage":["医疗卫生系统招聘","医院事业编制招聘","公示"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"黄石市公安局 - 人事信息","url":"https://gaj.huangshi.gov.cn/xxgk/fdzdgknr/rsxx/","level":"市级","publisherType":"市公安局人事信息栏目","coverage":["辅警招聘","公务员招录","选调","公安人事"],"priority":3,"confidence":"high","notes":"公安/辅警源头。"}
+      ]
+    },
+    {
+      "region": "十堰",
+      "sources": [
+        {"name":"十堰市人事考试网","url":"https://www.syrsks.cn/","level":"市级","publisherType":"市人事考试院网站","coverage":["公务员","事业单位","教师","报名","准考证","成绩","职称考试"],"priority":1,"confidence":"high","notes":"页面署名十堰市人事考试院，含网上报名、准考证打印和成绩查询。"},
+        {"name":"十堰市人社局 - 通知公告","url":"http://rsj.shiyan.gov.cn/srlzyhshbzj/zc/qtzdgkwj/gzdt/","level":"市级","publisherType":"市人社局通知栏目","coverage":["事业单位","教师","卫生高级职称","国企招聘","公示"],"priority":1,"confidence":"high","notes":"十堰人社招聘公告源头。"},
+        {"name":"十堰市委市政府门户网站","url":"https://www.shiyan.gov.cn/","level":"市级","publisherType":"政府门户","coverage":["事业单位统一招聘","政府通知公告"],"priority":2,"confidence":"high","notes":"政府门户曾发布市直事业单位统一招聘公告。"},
+        {"name":"十堰市教育局","url":"http://jyj.shiyan.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","教育系统招聘","体检/考察"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"十堰市卫健委","url":"http://wjw.shiyan.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生","卫健系统考试/通知"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"十堰市公安局","url":"http://gaj.shiyan.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["公安通知","辅警线索"],"priority":3,"confidence":"medium-high","notes":"辅警招聘需与人社局/公共招聘渠道交叉核验。"}
+      ]
+    },
+    {
+      "region": "宜昌",
+      "sources": [
+        {"name":"宜昌市人社局 - 招聘公告","url":"http://rsj.yichang.gov.cn/list-63350-1.html","level":"市级","publisherType":"市人社局招聘公告栏目","coverage":["事业单位","教育系统事业单位","人才引进","市直/县市区招聘"],"priority":1,"confidence":"high","notes":"宜昌本地公职招聘主源。"},
+        {"name":"宜昌市人社局 - 事业单位招聘","url":"http://rsj.yichang.gov.cn/list-61456-1.html","level":"市级","publisherType":"市人社局事业单位栏目","coverage":["事业单位公开招聘"],"priority":1,"confidence":"high","notes":"事业单位专项入口。"},
+        {"name":"宜昌人事考试服务平台","url":"https://ycrsks.sc.yichang.gov.cn/","level":"系统","publisherType":"市人事考试服务平台","coverage":["人事考试报名","考务服务","成绩/准考证"],"priority":1,"confidence":"medium-high","notes":"官方子域，抓取时403；建议从人社局公告进入。"},
+        {"name":"宜昌市教育局","url":"http://jyj.yichang.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","教育系统公告/通知"],"priority":2,"confidence":"medium","notes":"教师岗优先看人社局，教育局作补充。"},
+        {"name":"宜昌市卫健委","url":"http://wjw.yichang.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生系统通知","下属单位公告"],"priority":2,"confidence":"medium","notes":"医疗招聘同时查人社局、卫健委和医院公告。"}
+      ]
+    },
+    {
+      "region": "襄阳",
+      "sources": [
+        {"name":"襄阳市人社局 - 招录招聘","url":"http://rsj.xiangyang.gov.cn/xwzx/zlzp/","level":"市级","publisherType":"市人社局招录招聘栏目","coverage":["事业单位","公务员本地通知","选调生","三支一扶","公安公务员体测","教师/学校招聘"],"priority":1,"confidence":"high","notes":"襄阳公职招聘核心入口。"},
+        {"name":"襄阳人事考试专栏","url":"http://rsj.xiangyang.gov.cn/rsks/","level":"市级","publisherType":"市人社局人事考试专栏","coverage":["人事考试报名","准考证","成绩","公务员","事业单位","专业技术考试"],"priority":1,"confidence":"high","notes":"考试服务入口。"},
+        {"name":"襄阳市教育局","url":"http://jyj.xiangyang.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","教育系统通知"],"priority":2,"confidence":"high","notes":"教师招聘通常与人社局同步。"},
+        {"name":"襄阳市卫健委","url":"http://wjw.xiangyang.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生系统通知","市直卫健单位动态"],"priority":2,"confidence":"high","notes":"医疗岗位还需看人社局统一招聘及医院官网。"},
+        {"name":"襄阳市公安局/平安襄阳网","url":"http://gaj.xiangyang.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["公安通知","辅警招聘线索","警务公告"],"priority":3,"confidence":"medium-high","notes":"辅警公告通常在公安局/人社局渠道发布。"},
+        {"name":"襄阳市民政局","url":"http://mzj.xiangyang.gov.cn/","level":"市级","publisherType":"市民政局","coverage":["民政通知","社区/社工线索"],"priority":3,"confidence":"medium","notes":"社区工作者更多分散在区县政府、人社或街道公告。"}
+      ]
+    },
+    {
+      "region": "鄂州",
+      "sources": [
+        {"name":"鄂州市人社局 - 通知公告","url":"https://rsj.ezhou.gov.cn/tzgg/","level":"市级","publisherType":"市人社局通知公告","coverage":["事业单位招聘","教师专项招聘","岗位调整","资格复审","成绩","体检考察","公务员本地通知"],"priority":1,"confidence":"high","notes":"鄂州人社主入口。"},
+        {"name":"鄂州市政府 - 公考公招","url":"https://www.ezhou.gov.cn/bsfw_0/ztfwcs/jy1/gkgz/","level":"市级","publisherType":"政府门户专题","coverage":["公务员","公考公招","事业单位招聘"],"priority":1,"confidence":"high","notes":"市政府公考公招专题。"},
+        {"name":"鄂州市政府 - 招考招录","url":"https://www.ezhou.gov.cn/gk/xxgkml/qt/rsxx/zkzl1/list.html","level":"市级","publisherType":"政府信息公开招考栏目","coverage":["招考招录","公务员","事业单位"],"priority":2,"confidence":"high","notes":"人事信息补充入口。"},
+        {"name":"鄂州市教育局 - 公示公告","url":"https://jyj.ezhou.gov.cn/xxgk/zc/gsgg/","level":"市级","publisherType":"市教育局公告栏目","coverage":["教师招聘","专项招聘","义务教育学校教师招聘","面试/体检"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"鄂州市卫健委","url":"https://wjw.ezhou.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生系统招聘/录用动态","招考录用","公示公告"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"鄂州市公安局 - 招聘信息","url":"https://gaj.ezhou.gov.cn/jwgk/fdzdgknr/rsxx/zpxx/","level":"市级","publisherType":"市公安局招聘栏目","coverage":["辅警招聘","公安人事信息"],"priority":3,"confidence":"high","notes":"辅警源头。"}
+      ]
+    },
+    {
+      "region": "荆门",
+      "sources": [
+        {"name":"荆门市人社局","url":"http://rsj.jingmen.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["事业单位","人社公告","本地招聘/考试通知"],"priority":1,"confidence":"high","notes":"HTTPS证书访问异常，建议用HTTP。"},
+        {"name":"荆门人事考试网","url":"https://www.jmrsks.cn/","level":"市级","publisherType":"地方人事考试网","coverage":["事业单位招聘","人事考试","报名/成绩/考务通知"],"priority":1,"confidence":"medium-high","notes":"由荆门市人社局官网链接，多份公告标注为官方发布平台。"},
+        {"name":"荆门市教育局","url":"http://jyj.jingmen.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","教育系统事业单位"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"荆门市卫健委","url":"http://wjw.jingmen.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生","乡村医生","卫健系统公告"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"荆门市公安局","url":"http://gaj.jingmen.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["公安公告","辅警线索"],"priority":3,"confidence":"medium","notes":"本轮未命中明确辅警招聘，作补充监控。"},
+        {"name":"荆门市民政局","url":"http://mzj.jingmen.gov.cn/","level":"市级","publisherType":"市民政局","coverage":["民政公告","社区/社工线索"],"priority":3,"confidence":"medium","notes":"社区/社工补充源。"}
+      ]
+    },
+    {
+      "region": "孝感",
+      "sources": [
+        {"name":"孝感市人事考试专栏","url":"https://rsj.xiaogan.gov.cn/xgsrskszl/","level":"市级","publisherType":"市人社局人事考试专栏","coverage":["公务员本地通知","事业单位","其他招录聘","人事考试","网上报名"],"priority":1,"confidence":"high","notes":"孝感人事考试核心入口。"},
+        {"name":"孝感市人事考试专栏 - 事业单位招聘","url":"https://rsj.xiaogan.gov.cn/xgsrskszl/sydwzp2/","level":"市级","publisherType":"市人社局事业单位栏目","coverage":["事业单位招聘","面试","体检","递补"],"priority":1,"confidence":"high","notes":"事业单位重点入口。"},
+        {"name":"孝感市教育局 - 公示公告","url":"https://jyj.xiaogan.gov.cn/gsgg/","level":"市级","publisherType":"市教育局公告栏目","coverage":["教师招聘","教育系统事业单位","岗位取消/面试公告"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"孝感市卫健委 - 公示公告","url":"https://wjw.xiaogan.gov.cn/zfxxgk/gsgg/","level":"市级","publisherType":"市卫健委公告栏目","coverage":["医疗卫生","医疗类事业单位","人才引进","体检/考察"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"孝感市公安局 - 公示公告","url":"https://gaj.xiaogan.gov.cn/gsgg/","level":"市级","publisherType":"市公安局公告栏目","coverage":["公安公告","辅警线索"],"priority":3,"confidence":"high","notes":"公安补充源。"},
+        {"name":"孝感市民政局 - 通知公告","url":"https://mzj.xiaogan.gov.cn/zfxxgk/gsgg02/","level":"市级","publisherType":"市民政局公告栏目","coverage":["民政公告","社区/社工线索"],"priority":3,"confidence":"high","notes":"社区/民政类补充源。"}
+      ]
+    },
+    {
+      "region": "荆州",
+      "sources": [
+        {"name":"荆州市人社局","url":"http://rsj.jingzhou.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["人社政策","通知公告","招聘招录入口"],"priority":1,"confidence":"high","notes":"首页可见招聘招录入口并外链荆州人事考试网。"},
+        {"name":"荆州市人社局政府信息公开 - 招聘招录","url":"http://jzrsj.zwgk.jingzhou.gov.cn/list.shtml?column_id=54282","level":"市级","publisherType":"市人社局政务公开栏目","coverage":["事业单位","市直招聘招录","资格复审","成绩"],"priority":1,"confidence":"high","notes":"荆州本地事业单位/招聘招录核心源。"},
+        {"name":"荆州人事考试网","url":"http://www.jzrsks.cn/","level":"市级","publisherType":"地方人事考试网","coverage":["招录聘类考试","考试服务","报名系统入口","成绩/公告"],"priority":1,"confidence":"high","notes":"由荆州市人社局首页链接，属官方人事考试域名。"},
+        {"name":"荆州市人事考试院网上报名系统","url":"http://jzrsks.pzhl.net/index.php","level":"系统","publisherType":"官方指定报名技术系统","coverage":["网上报名","缴费","考试项目列表"],"priority":2,"confidence":"medium","notes":"非政府域名，应从荆州人事考试网/人社局公告进入。"},
+        {"name":"荆州市教育局","url":"http://jyj.jingzhou.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","教育系统通知"],"priority":2,"confidence":"medium","notes":"教师招聘多由人社局/省中小学教师招聘公告承载，教育局补充核验。"},
+        {"name":"荆州市卫健委","url":"http://wjw.jingzhou.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生系统","医院招聘/公告"],"priority":2,"confidence":"medium","notes":"医疗岗建议同时查人社局招聘招录和卫健委公告公示。"}
+      ]
+    },
+    {
+      "region": "黄冈",
+      "sources": [
+        {"name":"黄冈市人社局 - 事业单位招聘专栏/招聘公告","url":"https://rsj.hg.gov.cn/ztzl/sydwzpzl/gkzp/index.html","level":"市级","publisherType":"市人社局事业单位招聘专栏","coverage":["事业单位招聘","人才引进","教师招聘","卫健系统岗位","资格复审","面试","体检考察"],"priority":1,"confidence":"high","notes":"黄冈最重要主入口。"},
+        {"name":"黄冈市人事考试网 - 公示公告","url":"http://www.hgrsks.gov.cn/gsgg/","level":"市级","publisherType":"地方人事考试网","coverage":["人事考试公告","公示","事业单位/招考信息"],"priority":1,"confidence":"medium-high","notes":"抓取证书异常，建议浏览器复核。"},
+        {"name":"黄冈市教育局","url":"https://jyj.hg.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教育局通知公告","教师招聘线索"],"priority":2,"confidence":"medium","notes":"教师招聘更集中在市人社局事业单位招聘专栏。"},
+        {"name":"黄冈市卫健委","url":"https://wjw.hg.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["卫健系统通知公告","医疗卫生招聘线索"],"priority":2,"confidence":"medium","notes":"卫健岗位信息常在人社局事业单位招聘专栏。"},
+        {"name":"黄冈市公安局","url":"https://gaj.hg.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["公安政务通知","辅警招聘线索"],"priority":3,"confidence":"medium","notes":"辅警可能分散在县市区公安局或政府网站。"}
+      ]
+    },
+    {
+      "region": "咸宁",
+      "sources": [
+        {"name":"咸宁市人社局","url":"http://rsj.xianning.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["事业单位","人才引进","人社通知公告"],"priority":1,"confidence":"high","notes":"部分HTTPS访问可能异常，建议用HTTP或站内栏目。"},
+        {"name":"咸宁市人社局 - 通知公告","url":"https://rsj.xianning.gov.cn/xwzx/tzgg/","level":"市级","publisherType":"市人社局通知公告","coverage":["事业单位","人才引进","招聘通知"],"priority":1,"confidence":"high","notes":"市直事业单位、人才引进、面试体检重点入口。"},
+        {"name":"咸宁市公安局 - 招考录用","url":"https://gaj.xianning.gov.cn/xxgk/fdzdgknr/rsxx/","level":"市级","publisherType":"市公安局招考录用栏目","coverage":["辅警招聘","公安公务员/人民警察招录","拟聘公示","体测"],"priority":3,"confidence":"high","notes":"辅警类较清晰。"},
+        {"name":"咸宁市教育局","url":"http://jyj.xianning.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","教育系统公告"],"priority":2,"confidence":"medium","notes":"站内未命中稳定教师招聘公告，作教育系统监控源。"},
+        {"name":"咸宁市民政局","url":"http://mzj.xianning.gov.cn/","level":"市级","publisherType":"市民政局","coverage":["民政公告","社区/社工线索"],"priority":3,"confidence":"high","notes":"社区/民政补充源。"}
+      ]
+    },
+    {
+      "region": "随州",
+      "sources": [
+        {"name":"随州市人社局 - 通知公告","url":"http://rsj.suizhou.gov.cn/fbjd_16/zwgk/zc/qtzdgkwj/tzgg/","level":"市级","publisherType":"市人社局通知公告","coverage":["事业单位","教师","选调","考试成绩","公示"],"priority":1,"confidence":"high","notes":"随州人社招聘核心入口。"},
+        {"name":"随州市人事考试报名系统","url":"https://szrsks.pzhl.net/index.php","level":"系统","publisherType":"官方指定报名技术系统","coverage":["人事考试报名","考试项目入口","通知"],"priority":2,"confidence":"medium-high","notes":"非gov域名，建议从人社局公告跳转进入。"},
+        {"name":"随州市教育局","url":"http://jyj.suizhou.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","教育局直属学校招聘"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"随州市卫健委","url":"http://wjw.suizhou.gov.cn/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生","医院专项招聘","公示"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"随州市公安局","url":"http://gaj.suizhou.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["辅警","公安公示公告"],"priority":3,"confidence":"high","notes":"首页公示公告曾列公开招聘警务辅助人员公告。"},
+        {"name":"随州市民政局","url":"http://mzj.suizhou.gov.cn/","level":"市级","publisherType":"市民政局","coverage":["民政","社区/社工线索"],"priority":3,"confidence":"medium","notes":"社区工作者可能更多分布在区县政府或人社公告。"}
+      ]
+    },
+    {
+      "region": "恩施州",
+      "sources": [
+        {"name":"恩施州人社局","url":"http://rsj.enshi.gov.cn/","level":"州级","publisherType":"州人社局","coverage":["公示公告","事业单位招考","公开招聘","人事考试服务"],"priority":1,"confidence":"high","notes":"恩施州本地公职招聘主源。"},
+        {"name":"恩施州人社局 - 事业单位招考公告/公开招聘","url":"http://rsj.enshi.gov.cn/xxgk/fdzdgk/zkly/xsydwzkgg/","level":"州级","publisherType":"州人社局事业单位栏目","coverage":["事业单位统招","专项招聘","资格复审","成绩","岗位调整"],"priority":1,"confidence":"high","notes":"事业单位最重要本地源。"},
+        {"name":"恩施州人社局 - 人事考试服务","url":"http://rsj.enshi.gov.cn/fwdt/rsksfw/","level":"州级","publisherType":"州人社局人事考试服务栏目","coverage":["人事考试服务","省人事考试链接","事业单位公告"],"priority":1,"confidence":"high","notes":"人事考试服务入口。"},
+        {"name":"恩施州人社局 - 事业单位招考下载/专题","url":"http://rsj.enshi.gov.cn/xzzx/sydwzk/","level":"州级","publisherType":"州人社局下载专题","coverage":["事业单位招考","岗位计划调整","拟聘公示"],"priority":2,"confidence":"high","notes":"历史公告、附件、岗位调整和公示。"},
+        {"name":"恩施州事业单位公开招聘网上报名系统","url":"https://enshi.pzhl.net/index.php/exam/","level":"系统","publisherType":"官方指定报名技术系统","coverage":["报名","考试项目","卫健委/事业单位专项招聘"],"priority":2,"confidence":"medium","notes":"非政府域名，公告核验仍应回到恩施州人社局。"},
+        {"name":"恩施州教育局","url":"http://jyj.enshi.gov.cn/","level":"州级","publisherType":"州教育局","coverage":["教师","教育系统通知/公告"],"priority":2,"confidence":"medium","notes":"教师招聘通常由州人社局、教育局及县市政府同步。"}
+      ]
+    },
+    {
+      "region": "仙桃",
+      "sources": [
+        {"name":"仙桃市政府/仙桃市人社局 - 事业单位招录公告","url":"https://www.xiantao.gov.cn/zfxxgk/xxgkml/rsxx/sydwzl/","level":"直管市","publisherType":"政府门户人事信息/市人社局栏目","coverage":["事业单位统一公开招聘","岗位表","资格复审","成绩","拟聘"],"priority":1,"confidence":"high","notes":"事业单位公告正文说明湖北省人事考试网和仙桃市人社局政务公开网站为官方发布平台。"},
+        {"name":"仙桃市人社局政府信息公开页","url":"https://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/","level":"直管市","publisherType":"市人社局政务公开","coverage":["人社政策","就业","职称","招考录用入口线索"],"priority":2,"confidence":"medium","notes":"当前更偏政务公开，不是纯招聘公告列表；具体公告以人事信息/事业单位招录页为准。"}
+      ]
+    },
+    {
+      "region": "潜江",
+      "sources": [
+        {"name":"潜江市人社局 - 公示公告","url":"https://www.hbqj.gov.cn/srlzyhshbzj/xwzx/gsgg/","level":"直管市","publisherType":"市人社局公告栏目","coverage":["事业单位统一招聘","教师招聘","人才引进","乡村医生专项计划","拟聘公示"],"priority":1,"confidence":"high","notes":"潜江人社核心入口。"},
+        {"name":"潜江人事考试网","url":"https://www.qjrsks.cn/","level":"直管市","publisherType":"潜江市人事考试院网站","coverage":["事业单位招聘","人才引进","教师招聘","专项招聘","成绩/准考证/面试公告","公务员考区提示"],"priority":1,"confidence":"high","notes":"页面明确潜江市人事考试院主办。"},
+        {"name":"潜江市人民政府 - 招考录用/公示公告","url":"https://www.hbqj.gov.cn/xxgk/","level":"直管市","publisherType":"政府门户","coverage":["事业单位统一公开招聘","本地资格复审","成绩","拟聘","公务员拟录用公示"],"priority":2,"confidence":"high","notes":"政府门户补充入口。"},
+        {"name":"潜江市教育局 - 公示公告","url":"https://www.hbqj.gov.cn/sjyj/xwzx/gsgg/","level":"直管市","publisherType":"市教育局公告栏目","coverage":["教师招聘"],"priority":2,"confidence":"high","notes":"教师招聘源头。"},
+        {"name":"潜江市公安局 - 公示公告","url":"https://www.hbqj.gov.cn/sgaj/xwzx/gsgg/","level":"直管市","publisherType":"市公安局公告栏目","coverage":["辅警招聘"],"priority":3,"confidence":"high","notes":"辅警类源头。"}
+      ]
+    },
+    {
+      "region": "天门",
+      "sources": [
+        {"name":"天门市人民政府 - 招考录用","url":"https://www.tianmen.gov.cn/zwgk/zfxxgkml/zkly/","level":"直管市","publisherType":"政府门户招考栏目","coverage":["事业单位","公务员本地公示","教师","医疗","社区等招考录用信息"],"priority":1,"confidence":"high","notes":"天门综合招考录用主入口。"},
+        {"name":"天门市人民政府 - 公考公招专题","url":"https://www.tianmen.gov.cn/xwzx/ztzl/ggjyfwnlts/gkgz/","level":"直管市","publisherType":"政府门户专题","coverage":["公考公招汇总","事业单位","教师","资格复审","面试","成绩"],"priority":1,"confidence":"high","notes":"日常监控入口。"},
+        {"name":"天门市教育局","url":"https://www.tianmen.gov.cn/zwgk/bmhxzxxgkml/bm/sjyj/","level":"直管市","publisherType":"市教育局信息公开","coverage":["教师招聘","中小学教师"],"priority":2,"confidence":"high","notes":"教师招聘源头。"},
+        {"name":"天门市卫健委","url":"https://www.tianmen.gov.cn/zwgk/bmhxzxxgkml/bm/swjw/","level":"直管市","publisherType":"市卫健委信息公开","coverage":["卫健系统事业单位","医疗卫生人才引进"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"天门市公安局","url":"https://www.tianmen.gov.cn/zwgk/bmhxzxxgkml/bm/sgaj/","level":"直管市","publisherType":"市公安局信息公开","coverage":["辅警招聘","公安通知"],"priority":3,"confidence":"high","notes":"辅警招聘源头。"}
+      ]
+    },
+    {
+      "region": "神农架林区",
+      "sources": [
+        {"name":"神农架林区人社局","url":"http://rsj.snj.gov.cn/","level":"林区","publisherType":"林区人社局","coverage":["事业单位","人才引进","公示","人社通知"],"priority":1,"confidence":"high","notes":"神农架招聘主源之一。"},
+        {"name":"神农架林区人事考试网","url":"http://rsksw.snj.gov.cn/","level":"林区","publisherType":"林区人事考试网","coverage":["招聘信息","通知公告","网上考务","事业单位考试"],"priority":1,"confidence":"high","notes":"gov.cn 域名，栏目含招聘信息、通知公告、网上考务。"},
+        {"name":"神农架林区人事考试网上报名系统","url":"http://snjrsks.pzhl.net/index.php","level":"系统","publisherType":"官方指定报名技术系统","coverage":["人事考试/招聘考试报名"],"priority":2,"confidence":"medium-high","notes":"非gov域名，建议从 rsksw.snj.gov.cn 或人社局公告进入。"},
+        {"name":"神农架林区教育局","url":"http://jyj.snj.gov.cn/","level":"林区","publisherType":"林区教育局","coverage":["教师","教育系统招聘/遴选","公示"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"神农架林区卫健委","url":"http://wjw.snj.gov.cn/","level":"林区","publisherType":"林区卫健委","coverage":["医疗卫生","卫健系统通知","医疗招聘线索"],"priority":2,"confidence":"high","notes":"医疗招聘同步看人社局、人事考试网和医院官网。"},
+        {"name":"神农架林区人民医院","url":"http://www.snjhospital.com/","level":"部门补充","publisherType":"官方医院网站","coverage":["医疗","医院招聘/通知公告"],"priority":3,"confidence":"high","notes":"适合跟踪合同制、专业技术人员等医疗岗位。"}
+      ]
+    }
+  ],
+  "notPrimarySources": [
+    {
+      "name": "培训机构/聚合站",
+      "url": null,
+      "reason": "华图、中公、粉笔、格木、高校人才网、事业单位招聘网、本地宝等仅作线索发现，不作为最终公告依据。"
+    },
+    {
+      "name": "第三方技术报名系统",
+      "url": "*.pzhl.net",
+      "reason": "可作为官方指定报名技术系统，但必须从官方人社局、人事考试网或政府公告跳转进入后使用，不能单独作为公告源头。"
+    }
+  ],
+  "openQuestions": [
+    "湖北省委组织部、湖北省公务员局是否存在独立于湖北省人事考试网的长期稳定公务员/选调/遴选专题发布页，需后续专项核验。",
+    "区县级教师、医疗、辅警、社区工作者招聘发布较分散，需按目标城市继续下钻。",
+    "湖北国企招聘没有统一公考入口，应另行按湖北省国资委、市州国资委和各集团有限公司官网整理。",
+    "个别地市人事考试网站存在证书异常或非 .gov.cn 技术域名，报名时应从官方公告链接进入并二次核验。"
+  ]
+}
