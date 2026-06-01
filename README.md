@@ -9,11 +9,13 @@
 ```text
 .
 ├─ data/
-│  ├─ official_channels.json                    # 官方信息源清单
-│  ├─ aggregator_sources.json                   # 机构/聚合网站线索源清单
-│  └─ recruitment_leads_checked_2026-05-31.json # 已整理线索及官方核查状态
+│  ├─ official_channels.json                              # 官方信息源清单
+│  ├─ guangdong_official_recruitment_sources_2026-06-01.json # 广东省级与21市官方招聘源头
+│  ├─ aggregator_sources.json                             # 机构/聚合网站线索源清单
+│  └─ recruitment_leads_checked_2026-05-31.json           # 已整理线索及官方核查状态
 ├─ docs/
-│  ├─ methodology.md                            # 信息核查方法
+│  ├─ methodology.md                                      # 信息核查方法
+│  ├─ guangdong-official-recruitment-sources-2026-06-01.md # 广东省官方源头说明
 │  └─ assets/
 │     └─ screenshots/                           # 数据预览与公开网站截图
 ├─ LICENSE
@@ -52,13 +54,14 @@
 
 ## 数据规模
 
-截至 2026-05-31，信息源清单已补充为：
+截至 2026-06-01，信息源清单已补充为：
 
-- 官方/准官方核验渠道：43 个
+- 官方/准官方核验渠道：43 个（原始清单）
+- 广东省级与 21 个地市官方招聘源头：已单独整理为 `guangdong_official_recruitment_sources_2026-06-01.json`
 - 机构/聚合/报名平台线索源：26 个
 - 已整理招考线索：48 条
 
-覆盖范围包括国家级入口、广东省级入口、湖北省级入口，以及广州、深圳、东莞、中山、江门、汕尾、武汉、宜昌、荆门、黄石、潜江等地方人社/人事考试渠道。
+覆盖范围包括国家级入口、广东省级入口、湖北省级入口，广东 21 个地市人社/考试/教育/卫健/公安官方入口，以及武汉、宜昌、荆门、黄石、潜江等地方人社/人事考试渠道。
 
 ## 使用建议
 

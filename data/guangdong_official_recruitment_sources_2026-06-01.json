@@ -1,0 +1,395 @@
+{
+  "generatedAt": "2026-06-01",
+  "title": "广东省公考/公职类招聘官方源头清单",
+  "description": "整理广东省级与21个地市的公务员、选调、事业单位、三支一扶、教师、医疗卫生、辅警/社区等公职类招聘官方发布源头。优先收录 .gov.cn、人社/人事考试官方域名、官方报名系统和部门官网；不收录培训机构、聚合站作为正式源头。",
+  "disclaimer": "本清单用于监控和核验公开招考信息，不能替代最新官方公告、岗位表、报名系统资格审查和主管部门解释。个别地市的专项岗位发布较分散，需按具体年度/批次二次核验。",
+  "priorityGuide": [
+    "省考、选调、事业单位集中招聘、三支一扶优先看省级组织、人社、人事考试与报名系统。",
+    "地市事业单位和本地流程通知优先看市人社局/人事考试栏目/政府门户人事信息。",
+    "教师招聘看市教育局 + 市人社局；医疗卫生招聘看市卫健局 + 市人社局；辅警看市公安局公告公示 + 市人社局。",
+    "区县、直属学校、直属医院、国企招聘发布更分散，应以主管部门或招聘单位官网原文为准。"
+  ],
+  "fields": {
+    "name": "官方来源名称",
+    "url": "入口URL",
+    "level": "省级/市级/区级补充/系统",
+    "region": "覆盖地区",
+    "publisherType": "发布主体类型",
+    "coverage": "常见覆盖考试或招聘类型",
+    "priority": "监控优先级，1最高",
+    "confidence": "核验置信度",
+    "notes": "使用备注"
+  },
+  "provincialSources": [
+    {
+      "name": "广东组织工作网 - 通知公告",
+      "url": "https://www.gdzz.gov.cn/tzgg/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省委组织部系统",
+      "coverage": ["广东省考", "选调生", "事业单位集中招聘", "遴选/选调", "组织系统通知"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "省考、选调生、事业单位集中招聘等重要公告常见源头。"
+    },
+    {
+      "name": "广东省人力资源和社会保障厅",
+      "url": "https://hrss.gd.gov.cn/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级人社部门",
+      "coverage": ["事业单位招聘", "三支一扶", "人社政策", "考试安排", "公示公告"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "事业单位集中招聘、三支一扶等省级公告的重要源头。"
+    },
+    {
+      "name": "广东省人社厅 - 事业单位招聘/招聘信息",
+      "url": "https://hrss.gd.gov.cn/zdlyxx/zpxx/sydw/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级人社事业单位招聘栏目",
+      "coverage": ["广东省事业单位集中招聘", "笔试公告", "面试公告", "拟聘公示", "岗位信息"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "事业单位集中招聘季高频监控。"
+    },
+    {
+      "name": "广东人事考试网 - 公务员考试",
+      "url": "https://rsks.gd.gov.cn/wsbs/gwyks/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级人事考试网",
+      "coverage": ["广东省考", "选调生", "准考证", "成绩", "考务通知"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "面包屑为网上办事 > 公务员考试，年度专题页会挂省考/选调等信息。"
+    },
+    {
+      "name": "广东省人事考试局 - 系统快速通道",
+      "url": "https://rsks.gd.gov.cn/xtkstd/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省级考试系统入口目录",
+      "coverage": ["公务员报名系统", "事业单位报名系统", "三支一扶系统", "其他考试系统"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "当具体报名系统地址变化时，优先从此页校验最新入口。"
+    },
+    {
+      "name": "广东省公务员考试录用管理系统（考生报名）",
+      "url": "https://ggfw.hrss.gd.gov.cn/gwyks/index.do",
+      "level": "系统",
+      "region": "广东",
+      "publisherType": "省级公务员报名系统",
+      "coverage": ["广东省考报名", "缴费确认", "准考证", "资格审核", "系统公告"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "与公告页 anouns.do 搭配监控。"
+    },
+    {
+      "name": "广东省公务员考试录用管理系统 - 考试公告",
+      "url": "https://ggfw.hrss.gd.gov.cn/gwyks/anouns.do",
+      "level": "系统",
+      "region": "广东",
+      "publisherType": "省级公务员报名系统公告页",
+      "coverage": ["省考公告", "资格审核", "面试公告", "后续考务通知"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "省考季重点监控。"
+    },
+    {
+      "name": "广东省选调优秀大学毕业生系统（考试报名）",
+      "url": "https://ggfw.hrss.gd.gov.cn/yxks/index.do",
+      "level": "系统",
+      "region": "广东",
+      "publisherType": "省级选调生报名系统",
+      "coverage": ["选调生报名", "选调公告", "考试安排"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "选调公告通常同时在广东组织工作网、省人社厅、广东人事考试网发布。"
+    },
+    {
+      "name": "广东省选调优秀大学毕业生系统 - 考试公告",
+      "url": "https://ggfw.hrss.gd.gov.cn/yxks/anouns.do",
+      "level": "系统",
+      "region": "广东",
+      "publisherType": "省级选调生报名系统公告页",
+      "coverage": ["选调公告", "报名安排", "资格审核", "考务通知"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "选调季与 yxks/index.do 一起监控。"
+    },
+    {
+      "name": "广东省事业单位公开招聘信息管理系统（考生报名）",
+      "url": "https://ggfw.hrss.gd.gov.cn/sydwbk",
+      "level": "系统",
+      "region": "广东",
+      "publisherType": "省级事业单位报名系统",
+      "coverage": ["事业单位集中招聘报名", "岗位查询", "报名确认", "准考证"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "集中招聘报名、确认和岗位查询核心系统。"
+    },
+    {
+      "name": "广东省高校毕业生“三支一扶”计划信息管理系统",
+      "url": "https://ggfw.hrss.gd.gov.cn/szyf/index.do",
+      "level": "系统",
+      "region": "广东",
+      "publisherType": "省级三支一扶报名系统",
+      "coverage": ["三支一扶招募", "报名", "公告", "后续通知"],
+      "priority": 1,
+      "confidence": "high",
+      "notes": "由广东省人事考试局快速通道和省人社厅招募公告共同确认。"
+    },
+    {
+      "name": "广东省人民政府 - 公示公告",
+      "url": "https://www.gd.gov.cn/zwgk/gsgg/",
+      "level": "省级",
+      "region": "广东",
+      "publisherType": "省政府门户公告栏目",
+      "coverage": ["省级公告", "选调/招聘转载", "政策公告"],
+      "priority": 2,
+      "confidence": "high",
+      "notes": "作为省级公告补充核验入口。"
+    }
+  ],
+  "citySources": [
+    {
+      "city": "广州",
+      "sources": [
+        {"name":"广州市人民政府门户网站 - 事业单位招聘","url":"https://www.gz.gov.cn/zwgk/rsgz/sydwzp/","level":"市级","publisherType":"政府门户人事工作栏目","coverage":["事业单位公开招聘","报名","成绩/拟聘公示"],"priority":1,"confidence":"high","notes":"政府门户事业单位招聘主栏目。"},
+        {"name":"广州市人社局 - 事业单位招聘公告","url":"https://rsj.gz.gov.cn/ywzt/rszdgg/sydwgkzp/sydwzpgg/","level":"市级","publisherType":"市人社局专题栏目","coverage":["事业单位招聘","事业编制","高层次人才","急需人才"],"priority":1,"confidence":"high","notes":"广州事业单位核心源头。"},
+        {"name":"广州市教育局 - 通知公告","url":"https://jyj.gz.gov.cn/yw/tzgg/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","教育系统事业单位"],"priority":2,"confidence":"high","notes":"教师岗源头。"},
+        {"name":"广州市卫健委 - 通知公告","url":"https://wjw.gz.gov.cn/xxgk/tzgg/","level":"市级","publisherType":"市卫健委","coverage":["医疗卫生招聘","直属事业单位","资格复审/面试/拟聘"],"priority":2,"confidence":"high","notes":"卫健招聘信息也可能分布在人事信息栏目。"},
+        {"name":"广州市公安局 - 通知公告","url":"https://gaj.gz.gov.cn/zwdt/tzgg/","level":"市级","publisherType":"市公安局","coverage":["辅警","警务辅助人员"],"priority":3,"confidence":"high","notes":"辅警招聘源头。"}
+      ]
+    },
+    {
+      "city": "深圳",
+      "sources": [
+        {"name":"深圳政府在线 - 招考招聘","url":"https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/","level":"市级","publisherType":"政府门户人事信息栏目","coverage":["事业单位","教师","卫健","社区专职工作者","编外","拟聘公示","公务员本地通知"],"priority":1,"confidence":"high","notes":"深圳覆盖面最广的综合入口。"},
+        {"name":"深圳市考试院 - 机关事业单位招聘选调","url":"https://hrss.sz.gov.cn/szksy/zpxd/mindex.html","level":"市级","publisherType":"市考试院","coverage":["机关事业单位招聘","选调","员额","党务工作者"],"priority":1,"confidence":"high","notes":"深圳考试院核心入口。"},
+        {"name":"深圳市考试院 - 网上报名","url":"https://hrss.sz.gov.cn/szksy/wsbs/zzbm/","level":"系统","publisherType":"市考试院报名入口","coverage":["公务员考试","事业单位考试","人事考试报名"],"priority":1,"confidence":"high","notes":"报名开放情况核验入口。"},
+        {"name":"深圳市考试院 - 事业单位考试通知","url":"https://hrss.sz.gov.cn/szksy/ztzl/sydwks/jgsyzxxx/","level":"市级","publisherType":"市考试院专题栏目","coverage":["事业单位考试","教师招聘考试通知","报名人数","考务事项"],"priority":1,"confidence":"high","notes":"事业单位考务通知入口。"},
+        {"name":"深圳市教育局 - 人员招聘","url":"https://szeb.sz.gov.cn/home/xxgk/flzy/rsxx2/ryzp/index_2.html","level":"市级","publisherType":"市教育局","coverage":["教师","公办中小学","教育系统事业单位","体检/拟聘"],"priority":2,"confidence":"high","notes":"教师招聘核心入口。"},
+        {"name":"深圳市卫健委 - 人事信息","url":"https://wjw.sz.gov.cn/xxgk/rsrm/","level":"市级","publisherType":"市卫健委","coverage":["卫健系统招聘","医院/事业单位","高层次人才"],"priority":2,"confidence":"high","notes":"医疗卫生招聘源头。"},
+        {"name":"深圳市公安局 - 公告公示","url":"https://ga.sz.gov.cn/ZWGK/QT/GSGG/","level":"市级","publisherType":"市公安局","coverage":["辅警","文职辅警","勤务辅警"],"priority":3,"confidence":"high","notes":"辅警招聘源头。"}
+      ]
+    },
+    {
+      "city": "珠海",
+      "sources": [
+        {"name":"珠海市人社局","url":"https://zhrsj.zhuhai.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["事业单位公开招聘","人事任免","公示公告","公务员拟录用","教师/市直事业单位"],"priority":1,"confidence":"high","notes":"珠海综合人社源头。"},
+        {"name":"珠海市人社局 - 工作招考","url":"https://zhrsj.zhuhai.gov.cn/zw/tzgg/gzzk/","level":"市级","publisherType":"市人社局招考栏目","coverage":["工作招考","卫健系统","事业单位招聘"],"priority":1,"confidence":"high","notes":"人社局承载部分主管部门招聘公告。"},
+        {"name":"珠海市教育局","url":"https://zhjy.zhuhai.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","教育系统","公示公告"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"珠海市卫健局","url":"https://wsjkj.zhuhai.gov.cn/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生招聘","公示公告"],"priority":2,"confidence":"medium-high","notes":"招聘公告也可能同步/转至人社局。"},
+        {"name":"珠海高新区门户 - 人事信息","url":"https://www.zhuhai-hitech.gov.cn/zwgk/rsxx/","level":"区级补充","publisherType":"区级政府门户","coverage":["区级教师","事业编制","人事信息"],"priority":3,"confidence":"medium","notes":"区级补充源头，不是市本级统一入口。"}
+      ]
+    },
+    {
+      "city": "佛山",
+      "sources": [
+        {"name":"佛山市人社局","url":"https://hrss.foshan.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["机关事业单位招录","招录结果公示","考试信息","医院/学校招聘","公务员选调公示"],"priority":1,"confidence":"high","notes":"佛山综合人社源头。"},
+        {"name":"佛山市政府 - 人事信息","url":"https://www.foshan.gov.cn/zwgk/rsxx/index.html","level":"市级","publisherType":"政府门户人事信息栏目","coverage":["招聘信息","公务员招考","干部任免"],"priority":1,"confidence":"high","notes":"本地公务员通知和各单位公开选调/招聘。"},
+        {"name":"佛山市政府 - 公务员招考","url":"https://www.foshan.gov.cn/zwgk/rsxx/gwyzk/","level":"市级","publisherType":"政府门户公务员招考栏目","coverage":["公务员招考/选调","本地机关人事公告"],"priority":2,"confidence":"high","notes":"公务员本地流程与选调公告入口。"},
+        {"name":"佛山市教育局 - 招聘信息","url":"https://edu.foshan.gov.cn/gg/zhaopinxinxi/index.html","level":"市级","publisherType":"市教育局招聘栏目","coverage":["教师","教育系统事业编","紧缺教师","高层次人才","拟聘公示"],"priority":2,"confidence":"high","notes":"教师岗核心源头。"}
+      ]
+    },
+    {
+      "city": "韶关",
+      "sources": [
+        {"name":"韶关市人社局","url":"https://rsj.sg.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["人社综合","事业单位","公务员本地通知","人事考试"],"priority":1,"confidence":"high","notes":"韶关人社总入口。"},
+        {"name":"韶关市人社局 - 人事人才","url":"https://rsj.sg.gov.cn/ywzt/rsrc/","level":"市级","publisherType":"市人社局人事人才栏目","coverage":["事业单位人事管理","公务员管理","人事考试"],"priority":1,"confidence":"high","notes":"人事人才总栏目。"},
+        {"name":"韶关市人社局 - 事业单位人事管理","url":"https://rsj.sg.gov.cn/ywzt/rsrc/sydw/index.html","level":"市级","publisherType":"市人社局事业单位栏目","coverage":["事业单位公开招聘","资格复审","面试","拟聘公示"],"priority":1,"confidence":"high","notes":"事业单位重点入口。"},
+        {"name":"韶关市人社局 - 公务员管理","url":"https://rsj.sg.gov.cn/ywzt/rsrc/gwy/index.html","level":"市级","publisherType":"市人社局公务员栏目","coverage":["公务员本地通知","公开选调","公开遴选","面试/体检/公示"],"priority":2,"confidence":"high","notes":"本地公务员流程和遴选选调。"},
+        {"name":"韶关市人社局 - 人事考试","url":"https://rsj.sg.gov.cn/ywzt/rsrc/rsks/index.html","level":"市级","publisherType":"市人社局人事考试栏目","coverage":["人事考试","职业资格考试","证书领取"],"priority":2,"confidence":"high","notes":"考试考务补充入口。"},
+        {"name":"韶关市教育局 - 通知公告","url":"https://jy.sg.gov.cn/wszw/tz/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","教育系统通知"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"韶关市卫健局 - 通知公告","url":"https://www.sg.gov.cn/bmpdlm/wsjkj/gzgg/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生系统招聘","直属事业单位招聘","拟聘/体检"],"priority":2,"confidence":"high","notes":"医疗卫生类源头。"}
+      ]
+    },
+    {
+      "city": "河源",
+      "sources": [
+        {"name":"河源市人社局 - 公告公示","url":"https://www.heyuan.gov.cn/bmjy/hysrlzyhshbzj/gggs/","level":"市级","publisherType":"市人社局公告栏目","coverage":["事业单位招聘","集中招聘","拟聘公示","人才引进"],"priority":1,"confidence":"medium-high","notes":"证书访问曾异常，但搜索结果与路径明确。"},
+        {"name":"河源市卫健局政府信息公开平台","url":"https://www.heyuan.gov.cn/hyswsjkj/gkmlpt/index","level":"市级","publisherType":"市卫健局信息公开平台","coverage":["医疗卫生招聘","编外人员","医院招聘"],"priority":2,"confidence":"medium-high","notes":"医疗卫生源头。"},
+        {"name":"河源市教育局","url":"https://www.heyuan.gov.cn/bmjy/hysjyj/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","市直公办学校","临聘教师"],"priority":2,"confidence":"high","notes":"教师招聘源头。"},
+        {"name":"河源市公安局","url":"https://www.heyuan.gov.cn/hysgaj/","level":"市级","publisherType":"市公安局","coverage":["辅警","警务辅助人员"],"priority":3,"confidence":"high","notes":"辅警公告可在政府信息公开路径核验。"}
+      ]
+    },
+    {
+      "city": "梅州",
+      "sources": [
+        {"name":"梅州市人社局","url":"https://www.meizhou.gov.cn/zwgk/zfjg/srlzyhshbzj/","level":"市级","publisherType":"市人社局","coverage":["人才引进","事业单位","拟聘公示"],"priority":1,"confidence":"medium-high","notes":"梅州人社总入口。"},
+        {"name":"梅州市人社局 - 事业单位人事管理","url":"https://www.meizhou.gov.cn/zwgk/zfjg/srlzyhshbzj/ztzl/sydwrsgl/","level":"市级","publisherType":"市人社局事业单位栏目","coverage":["事业单位招聘","教育局下属事业单位","拟聘公示"],"priority":1,"confidence":"high","notes":"事业单位重点入口。"},
+        {"name":"梅州市卫健局","url":"https://www.meizhou.gov.cn/zwgk/zfjg/swsjkj/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生事业单位","医院招聘","面试/考核"],"priority":2,"confidence":"medium-high","notes":"医疗卫生源头。"},
+        {"name":"梅州市公安局 - 公示公告","url":"https://www.meizhou.gov.cn/zwgk/zfjg/sgaj/gsgg/mindex.html","level":"市级","publisherType":"市公安局","coverage":["辅警招聘","成绩","公示"],"priority":3,"confidence":"high","notes":"辅警类源头。"}
+      ]
+    },
+    {
+      "city": "惠州",
+      "sources": [
+        {"name":"惠州市人社局 - 事业单位人事管理","url":"https://rsj.huizhou.gov.cn/ywzt/sydwrsgl/","level":"市级","publisherType":"市人社局事业单位栏目","coverage":["事业单位招聘","面试","资格复审","成绩","体检","拟聘","高层次/急需紧缺人才"],"priority":1,"confidence":"high","notes":"惠州当前最可靠主入口。"},
+        {"name":"惠州市教育局","url":"https://jyj.huizhou.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师招聘结果","教育系统事业单位公示"],"priority":2,"confidence":"medium-high","notes":"教师公告也常由人社局同步发布。"},
+        {"name":"惠州市卫健局","url":"https://wjj.huizhou.gov.cn/","level":"市级","publisherType":"市卫健局","coverage":["卫健系统通知","医疗卫生相关信息"],"priority":2,"confidence":"medium","notes":"本轮未稳定命中招聘栏目，医疗事业单位优先看人社局。"},
+        {"name":"惠州市公安局","url":"https://gaj.huizhou.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["公安公务员拟录用","公安系统通知","辅警线索"],"priority":3,"confidence":"medium","notes":"辅警可能分散在公安局或区县政府通知公告。"},
+        {"name":"惠州市人民政府门户网站","url":"https://www.huizhou.gov.cn/","level":"市级","publisherType":"政府门户","coverage":["部门入口","公告附件","岗位表"],"priority":3,"confidence":"medium-high","notes":"具体招聘优先回到主管部门子站。"}
+      ]
+    },
+    {
+      "city": "汕头",
+      "sources": [
+        {"name":"汕头市人社局","url":"https://www.shantou.gov.cn/hrss/","level":"市级","publisherType":"市人社局","coverage":["人社总入口","招考录用","事业单位","拟聘公示","公务员本地通知"],"priority":1,"confidence":"high","notes":"汕头人社官方页。"},
+        {"name":"汕头市人社局 - 事业单位人事管理/招聘信息","url":"https://www.shantou.gov.cn/stsrlzyhshbzj/ztzl/sydwrsgl/zpxx/","level":"市级","publisherType":"市人社局事业单位招聘栏目","coverage":["事业单位招聘","集中招聘","拟聘","公示"],"priority":1,"confidence":"high","notes":"事业单位重点订阅。"},
+        {"name":"汕头市政府 - 人事信息/招考录用","url":"https://www.shantou.gov.cn/cnst/zwgk/jcxxgk/rsxx/zkly/","level":"市级","publisherType":"政府门户人事信息栏目","coverage":["公务员本地转发/拟录用","人事招考"],"priority":2,"confidence":"high","notes":"公务员和人事公告补充入口。"},
+        {"name":"汕头市教育局","url":"https://www.shantou.gov.cn/edu/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","直属学校招聘","成绩/体检"],"priority":2,"confidence":"medium-high","notes":"教师公告也常同步至人社/政府门户。"},
+        {"name":"汕头市卫健局","url":"https://www.shantou.gov.cn/wjj/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生事业单位","医院招聘"],"priority":2,"confidence":"medium-high","notes":"医疗卫生源头。"},
+        {"name":"汕头市公安局 - 人员招录","url":"https://www.shantou.gov.cn/gaj/zwgk/ryzl/","level":"市级","publisherType":"市公安局人员招录栏目","coverage":["辅警","公安人员招录","体测/笔试/面试名单"],"priority":3,"confidence":"medium-high","notes":"WebFetch 曾遇跳转，但官方栏目路径明确。"}
+      ]
+    },
+    {
+      "city": "汕尾",
+      "sources": [
+        {"name":"汕尾市人社局 - 人事考试","url":"https://www.shanwei.gov.cn/swrsj/ztzl/rsks/","level":"市级","publisherType":"市人社局人事考试栏目","coverage":["公务员招考","事业单位","政府聘员","其他招聘"],"priority":1,"confidence":"high","notes":"汕尾人事考试体系最清晰。"},
+        {"name":"汕尾市人社局 - 事业单位招聘","url":"https://www.shanwei.gov.cn/swrsj/ztzl/rsks/sydwzp/","level":"市级","publisherType":"市人社局事业单位栏目","coverage":["事业单位招聘","成绩","面试","拟聘公示"],"priority":1,"confidence":"high","notes":"事业单位重点入口。"},
+        {"name":"汕尾市人社局 - 公务员招考","url":"https://www.shanwei.gov.cn/swrsj/ztzl/rsks/gwyzk/","level":"市级","publisherType":"市人社局公务员栏目","coverage":["公务员招考","遴选","录用公示"],"priority":2,"confidence":"high","notes":"本地公务员流程入口。"},
+        {"name":"汕尾市人社局 - 政府聘员招聘","url":"https://www.shanwei.gov.cn/swrsj/ztzl/rsks/zfgyzp/","level":"市级","publisherType":"市人社局政府聘员栏目","coverage":["政府聘员","辅警","合同制人员"],"priority":2,"confidence":"high","notes":"辅警/政府聘员常见入口。"},
+        {"name":"汕尾市教育局政务公开","url":"https://www.shanwei.gov.cn/swjyj/zwgk/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","直属学校岗位","体检公告"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"汕尾市卫健局","url":"https://www.shanwei.gov.cn/swwjj/","level":"市级","publisherType":"市卫健局","coverage":["卫健系统招聘","医院招聘","公示"],"priority":2,"confidence":"medium-high","notes":"医疗卫生源头。"},
+        {"name":"汕尾市公安局","url":"https://www.shanwei.gov.cn/swsgaj/","level":"市级","publisherType":"市公安局","coverage":["辅警","公安政府聘员"],"priority":3,"confidence":"high","notes":"辅警公告也可在人社政府聘员栏目核验。"}
+      ]
+    },
+    {
+      "city": "东莞",
+      "sources": [
+        {"name":"东莞市人社局 - 公开招聘","url":"https://dghrss.dg.gov.cn/xwzx/gsgg/gkzp/","level":"市级","publisherType":"市人社局公开招聘栏目","coverage":["事业单位","编外","成绩/面试/拟聘","公立医院/教师公告"],"priority":1,"confidence":"high","notes":"东莞综合招聘核心入口。"},
+        {"name":"东莞市卫健局 - 公开招聘专题/招聘公告","url":"https://dghb.dg.gov.cn/ztpd/gkzp/zpgg/","level":"市级","publisherType":"市卫健局招聘专题","coverage":["医疗卫生","公立医院","社区卫生服务中心","编制内人员招聘"],"priority":2,"confidence":"high","notes":"医疗卫生招聘专题清晰。"},
+        {"name":"东莞市公安局","url":"https://gaj.dg.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["辅警","公安机关人员招考"],"priority":3,"confidence":"high","notes":"辅警公告可在政府信息公开路径核验。"},
+        {"name":"东莞市教育局","url":"https://edu.dg.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","临聘教师","事业编制教职员"],"priority":2,"confidence":"medium-high","notes":"教师招聘较分散，常见于教育局、镇街或人社栏目。"},
+        {"name":"东莞市人民政府门户网站","url":"https://www.dg.gov.cn/","level":"市级","publisherType":"政府门户","coverage":["公务员拟录用公示","镇街事业单位/编外/教师/辅警"],"priority":3,"confidence":"high","notes":"镇街和部门公告补充入口。"}
+      ]
+    },
+    {
+      "city": "中山",
+      "sources": [
+        {"name":"中山市人社局政务网站","url":"https://hrss.zs.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["事业单位招聘","雇员招聘","考试信息"],"priority":1,"confidence":"high","notes":"中山人社总入口。"},
+        {"name":"中山市人社局 - 事业单位招聘","url":"https://hrss.zs.gov.cn/xxgk/rsxx/sydwgkzp/","level":"市级","publisherType":"市人社局事业单位栏目","coverage":["事业单位","市直/部门所属事业单位","教师","卫健系统"],"priority":1,"confidence":"high","notes":"事业单位核心入口。"},
+        {"name":"中山市政府 - 公职招考","url":"https://www.zs.gov.cn/zwgk/rsxx/rszp/index.html","level":"市级","publisherType":"政府门户公职招考栏目","coverage":["公务员拟录用公示","事业单位/公职招考"],"priority":1,"confidence":"high","notes":"综合公职招考入口。"},
+        {"name":"中山市公安局","url":"https://gaj.zs.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["辅警","公安相关招聘"],"priority":3,"confidence":"high","notes":"辅警招聘源头。"},
+        {"name":"中山市教育和体育局公开招聘网上管理系统","url":"https://jyrc.zsedu.cn/home.action","level":"系统","publisherType":"教育系统报名系统","coverage":["教师/教育系统报名"],"priority":2,"confidence":"medium-high","notes":"以人社局/政府公告中的报名链接为准。"}
+      ]
+    },
+    {
+      "city": "江门",
+      "sources": [
+        {"name":"江门市人社局 - 事业单位公开招聘","url":"https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/sylm/rsks/syks/","level":"市级","publisherType":"市人社局人事考试栏目","coverage":["事业单位公开招聘","考试","面试","体检","拟聘","补充公告"],"priority":1,"confidence":"high","notes":"事业单位核心入口。"},
+        {"name":"江门市政府门户 - 事业单位招聘","url":"https://www.jiangmen.gov.cn/newzwgk/rsxx/sydwzp/","level":"市级","publisherType":"政府门户事业单位栏目","coverage":["事业单位招聘综合入口"],"priority":1,"confidence":"high","notes":"与人社局栏目互补。"},
+        {"name":"江门市教育局 - 通知公告","url":"https://www.jiangmen.gov.cn/bmpd/jmsjyj/zwgk/tzgg/","level":"市级","publisherType":"市教育局","coverage":["教师","教育系统事业单位","笔试/拟聘公示"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"江门市卫健局 - 通知公告","url":"https://www.jiangmen.gov.cn/bmpd/jmswsjkj/zwgk/tzgg/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生机构","医院人才招聘","卫健专项招聘"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"江门市公安局 - 通知公告","url":"https://www.jiangmen.gov.cn/bmpd/jmsgaj/zwgk/tzgg/","level":"市级","publisherType":"市公安局","coverage":["辅警","公安公务员拟录用公示","公安公告"],"priority":3,"confidence":"high","notes":"辅警和公安公告源头。"}
+      ]
+    },
+    {
+      "city": "阳江",
+      "sources": [
+        {"name":"阳江市人社局政府信息公开平台","url":"http://www.yangjiang.gov.cn/yjrsj/gkmlpt/index","level":"市级","publisherType":"市人社局信息公开平台","coverage":["事业单位招聘","人才引进","资格复审/公示","人社通知"],"priority":1,"confidence":"high","notes":"阳江人社核心入口。"},
+        {"name":"阳江市政府 - 公告公示","url":"https://www.yangjiang.gov.cn/zwgk/ywdt/gggs/","level":"市级","publisherType":"政府门户公告栏目","coverage":["市级公告公示","事业单位人才引进","招聘总公告"],"priority":2,"confidence":"high","notes":"政府公告补充入口。"},
+        {"name":"阳江市教育局政府信息公开平台","url":"http://www.yangjiang.gov.cn/yjjyj/gkmlpt/index","level":"市级","publisherType":"市教育局信息公开平台","coverage":["教师","学校招聘","教育系统人才引进"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"阳江市卫健局政府信息公开平台","url":"http://www.yangjiang.gov.cn/yjwsj/gkmlpt/index","level":"市级","publisherType":"市卫健局信息公开平台","coverage":["医疗卫生招聘","卫健系统考试/公示"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"阳江市公安局政府信息公开平台","url":"http://www.yangjiang.gov.cn/yjgaj/gkmlpt/index","level":"市级","publisherType":"市公安局信息公开平台","coverage":["公安公告","辅警/警务辅助人员线索"],"priority":3,"confidence":"medium-high","notes":"本轮未直接命中近期辅警招聘公告，建议站内搜辅警/警务辅助人员/招聘。"}
+      ]
+    },
+    {
+      "city": "湛江",
+      "sources": [
+        {"name":"湛江市人社局 - 通知公告","url":"https://www.zhanjiang.gov.cn/zjsfw/bmdh/rsj/zwgk/tzgg/index.html","level":"市级","publisherType":"市人社局通知公告","coverage":["事业单位","人社局雇员","考试/公示","公务员本地相关通知"],"priority":1,"confidence":"high","notes":"湛江人社核心入口。"},
+        {"name":"湛江市人社局 - 公招考录","url":"https://www.zhanjiang.gov.cn/zjsfw/bmdh/rsj/zwgk/ztlm/gkzl/mindex.html","level":"市级","publisherType":"市人社局公招考录栏目","coverage":["公招考录","笔试成绩","总成绩","体检/公示"],"priority":1,"confidence":"high","notes":"本地招录流程性公告。"},
+        {"name":"湛江市教育局 - 通知公告","url":"https://www.zhanjiang.gov.cn/zjsfw/bmdh/jyj/zwgk/tzgg/","level":"市级","publisherType":"市教育局","coverage":["教师","教职员","教育局直属学校招聘"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"湛江市卫健局 - 通知公告","url":"https://www.zhanjiang.gov.cn/zjsfw/bmdh/wsjkj/zwgk/tzgg/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生","卫健局所属事业单位","面试/体检/公示"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"湛江市公安局 - 人事信息","url":"https://gaj.zhanjiang.gov.cn/zwgk/rsxx/mindex.html","level":"市级","publisherType":"市公安局人事信息栏目","coverage":["辅警","警务辅助人员招聘","成绩/拟聘公示"],"priority":3,"confidence":"high","notes":"辅警类源头。"}
+      ]
+    },
+    {
+      "city": "茂名",
+      "sources": [
+        {"name":"茂名市人社局","url":"http://mmrs.maoming.gov.cn/","level":"市级","publisherType":"市人社局","coverage":["人社综合","事业单位","人事考试","招录考试","通知公告"],"priority":1,"confidence":"high","notes":"茂名人社总入口。"},
+        {"name":"茂名市人社局 - 通知公告","url":"http://mmrs.maoming.gov.cn/xwzx/tzgg/index.html","level":"市级","publisherType":"市人社局通知公告","coverage":["事业单位招聘","急需紧缺人才","资格复审/成绩/公示"],"priority":1,"confidence":"high","notes":"事业单位和人才招聘重点入口。"},
+        {"name":"茂名市人社局 - 招录考试","url":"http://mmrs.maoming.gov.cn/zwxx/rsks/zlks/index.html","level":"市级","publisherType":"市人社局招录考试栏目","coverage":["招录考试","人事考试","本地考务通知"],"priority":1,"confidence":"high","notes":"考务和招录入口。"},
+        {"name":"茂名市教育局","url":"http://mmjyj.maoming.gov.cn/","level":"市级","publisherType":"市教育局","coverage":["教师","学校招聘","教育系统公告"],"priority":2,"confidence":"high","notes":"教师信息可能散布在新闻/公告栏目。"},
+        {"name":"茂名市卫健局","url":"http://wsjkj.maoming.gov.cn/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生招聘","卫健系统公告公示"],"priority":2,"confidence":"high","notes":"医疗卫生总入口。"},
+        {"name":"茂名市卫健局 - 公告公示","url":"http://wsjkj.maoming.gov.cn/zwgk/gggs/index.html","level":"市级","publisherType":"市卫健局公告栏目","coverage":["医疗卫生招聘","公示","考试结果"],"priority":2,"confidence":"high","notes":"卫健公告重点入口。"},
+        {"name":"茂名市公安局","url":"http://mmga.maoming.gov.cn/","level":"市级","publisherType":"市公安局","coverage":["公安公告","辅警/警务辅助人员线索"],"priority":3,"confidence":"medium","notes":"本轮访问返回502，建议与人社公告交叉核验。"}
+      ]
+    },
+    {
+      "city": "肇庆",
+      "sources": [
+        {"name":"肇庆市人社局政府信息公开平台","url":"https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/index","level":"市级","publisherType":"市人社局信息公开平台","coverage":["事业单位招聘","高层次人才","卫健/教育系统联合招聘","人社通知"],"priority":1,"confidence":"high","notes":"肇庆事业单位和综合招聘核心入口。"},
+        {"name":"肇庆智慧人社综合服务平台","url":"https://www.zqzhrs.cn/","level":"系统","publisherType":"人社服务平台","coverage":["人社服务","人才服务","报名系统线索"],"priority":2,"confidence":"medium-high","notes":"非 .gov.cn，但与肇庆人社服务相关；以人社公告跳转为准。"},
+        {"name":"肇庆市事业单位报考系统","url":"https://sydwbk.zqzhrs.cn:8081","level":"系统","publisherType":"事业单位报考系统","coverage":["事业单位报名/报考"],"priority":2,"confidence":"medium","notes":"建议从肇庆人社或具体招聘公告进入核验。"},
+        {"name":"肇庆市教育局政府信息公开平台","url":"https://www.zhaoqing.gov.cn/zqjyj/gkmlpt/index","level":"市级","publisherType":"市教育局信息公开平台","coverage":["教师招聘公告","拟聘公示"],"priority":2,"confidence":"medium-high","notes":"教师类源头。"},
+        {"name":"肇庆市卫健局政府信息公开平台","url":"https://www.zhaoqing.gov.cn/zqwjj/gkmlpt/mindex","level":"市级","publisherType":"市卫健局信息公开平台","coverage":["医疗卫生系统招聘","医护人员招聘","面试/体检/拟聘"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"肇庆市公安局公告公示","url":"https://www.zhaoqing.gov.cn/zfxxgklm/gaj/gggs/","level":"市级","publisherType":"市公安局公告栏目","coverage":["辅警","警务辅助人员招聘"],"priority":3,"confidence":"medium-high","notes":"辅警公告源头，报名前从公安局/政府门户核验。"}
+      ]
+    },
+    {
+      "city": "清远",
+      "sources": [
+        {"name":"清远市人社局","url":"https://www.gdqy.gov.cn/channel/srlzyhshbz/index.html","level":"市级","publisherType":"市人社局","coverage":["人社综合","通知公告","人事考试"],"priority":1,"confidence":"high","notes":"清远人社总入口。"},
+        {"name":"清远市人社局 - 人事考试","url":"https://www.gdqy.gov.cn/xxgk/zzjg/zfjg/srlzyhshbz/rsks/index.html","level":"市级","publisherType":"市人社局人事考试栏目","coverage":["人事考试","事业单位考试相关通知"],"priority":1,"confidence":"high","notes":"人事考试重点入口。"},
+        {"name":"清远市教育局通知公告","url":"https://www.gdqy.gov.cn/xxgk/zzjg/zfjg/qysjyj/tzgga/","level":"市级","publisherType":"市教育局通知公告","coverage":["教师招聘","直属学校招聘","教育系统事业单位"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"清远市卫健局通知公告","url":"https://www.gdqy.gov.cn/xxgk/zzjg/zfjg/qyswsjkj/tzgga/","level":"市级","publisherType":"市卫健局通知公告","coverage":["医疗卫生系统招聘","面试","资格审核","拟聘公示"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"清远市公安局公告公示","url":"https://www.gdqy.gov.cn/xxgk/zzjg/zfjg/sgaj/jwzx/gggs/","level":"市级","publisherType":"市公安局公告栏目","coverage":["辅警","警务辅助人员招聘"],"priority":3,"confidence":"high","notes":"辅警招聘源头。"},
+        {"name":"清远市民政局","url":"https://www.gdqy.gov.cn/qymzj/","level":"市级","publisherType":"市民政局","coverage":["社工","双百工程","社区/乡镇社工"],"priority":3,"confidence":"high","notes":"社工类补充入口。"}
+      ]
+    },
+    {
+      "city": "潮州",
+      "sources": [
+        {"name":"潮州市人社局","url":"https://www.chaozhou.gov.cn/zwgk/szfgz/srlzy/index.html","level":"市级","publisherType":"市人社局","coverage":["人社通知公告","事业单位","面试/拟聘"],"priority":1,"confidence":"medium-high","notes":"人社入口页访问曾失败，但具体公告可核验。"},
+        {"name":"潮州市人社局 - 通知公告","url":"https://www.chaozhou.gov.cn/zwgk/szfgz/srlzy/tzgg/","level":"市级","publisherType":"市人社局通知公告","coverage":["事业单位招聘","面试","考试安排"],"priority":1,"confidence":"high","notes":"事业单位重点入口。"},
+        {"name":"潮州市教育局","url":"https://www.chaozhou.gov.cn/czjyj/","level":"市级","publisherType":"市教育局","coverage":["教师招聘","直属学校招聘"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"潮州市卫健局","url":"https://www.chaozhou.gov.cn/czwjj/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生事业单位","医院招聘"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"潮州市公安局 - 通知公告","url":"https://www.chaozhou.gov.cn/zwgk/szfgz/sgaj/tzgg/","level":"市级","publisherType":"市公安局通知公告","coverage":["辅警招聘","公安人员招聘"],"priority":3,"confidence":"high","notes":"辅警招聘源头。"}
+      ]
+    },
+    {
+      "city": "揭阳",
+      "sources": [
+        {"name":"揭阳市人社局","url":"https://www.jieyang.gov.cn/rsj/","level":"市级","publisherType":"市人社局","coverage":["人社总入口","事业单位","公务员","医疗招聘","公示"],"priority":1,"confidence":"medium-high","notes":"WebFetch 曾受证书问题影响，但为政府门户下属人社页。"},
+        {"name":"揭阳市政府 - 人事信息/公务员招考","url":"https://www.jieyang.gov.cn/zwgk/jcxxgk/rsxx/gwyzk/","level":"市级","publisherType":"政府门户人事信息栏目","coverage":["公务员招考","事业单位招聘","医疗卫生招聘","公示"],"priority":1,"confidence":"high","notes":"揭阳重要综合入口。"},
+        {"name":"揭阳市卫健局","url":"https://www.jieyang.gov.cn/jywjj/","level":"市级","publisherType":"市卫健局","coverage":["医疗卫生招聘","基层医疗人才"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"揭阳市公安局","url":"https://www.jieyang.gov.cn/jyga/","level":"市级","publisherType":"市公安局","coverage":["辅警","公安招聘","人事信息"],"priority":3,"confidence":"medium-high","notes":"人事信息含警务辅助人员公告线索。"},
+        {"name":"揭阳市教育局","url":"https://www.jieyang.gov.cn/sjyj/","level":"市级","publisherType":"市教育局","coverage":["教育局公示公告","教师类信息线索"],"priority":2,"confidence":"medium","notes":"未检出稳定教师招聘专栏，教师招聘仍优先看人社/政府人事信息。"}
+      ]
+    },
+    {
+      "city": "云浮",
+      "sources": [
+        {"name":"云浮市人力资源社会保障网","url":"https://www.yunfu.gov.cn/rsj/","level":"市级","publisherType":"市人社局","coverage":["人社综合","事业单位","人事考试","招聘信息"],"priority":1,"confidence":"high","notes":"云浮人社总入口。"},
+        {"name":"云浮市人社局 - 通知公告","url":"https://www.yunfu.gov.cn/rsj/zx/tzgg/","level":"市级","publisherType":"市人社局通知公告","coverage":["事业单位招聘","集中招聘","资格复审","面试/公示"],"priority":1,"confidence":"high","notes":"事业单位重点入口。"},
+        {"name":"云浮市人社局 - 政务服务","url":"https://www.yunfu.gov.cn/rsj/zwfw/","level":"市级","publisherType":"市人社局政务服务栏目","coverage":["考试报名及成绩查询","求职招聘","事业单位服务"],"priority":2,"confidence":"high","notes":"报名/成绩类补充入口。"},
+        {"name":"云浮市教育局 - 通知公告","url":"https://www.yunfu.gov.cn/jyj/tzgg/","level":"市级","publisherType":"市教育局通知公告","coverage":["教师","学校招聘","教育系统笔试/面试/公示"],"priority":2,"confidence":"high","notes":"教师类源头。"},
+        {"name":"云浮市卫健局公告","url":"https://www.yunfu.gov.cn/wjj/zwgk/ggl/","level":"市级","publisherType":"市卫健局公告栏目","coverage":["医疗卫生招聘","医院/疾控/妇幼招聘","公示"],"priority":2,"confidence":"high","notes":"医疗卫生源头。"},
+        {"name":"云浮市公安局 - 公告公示","url":"https://www.yunfu.gov.cn/gaj/xxgk/gggs/","level":"市级","publisherType":"市公安局公告栏目","coverage":["辅警","公安招聘","拟录用公示"],"priority":3,"confidence":"high","notes":"辅警类源头。"}
+      ]
+    }
+  ],
+  "notPrimarySources": [
+    {
+      "name": "珠海人力资源网",
+      "url": "https://www.zh-hr.com/",
+      "reason": "运营主体并非政府部门直接主办，可辅助发现线索，但最终应回到人社局/政府官网核验。"
+    },
+    {
+      "name": "培训机构/聚合站",
+      "url": null,
+      "reason": "华图、中公、粉笔、本地宝、事业单位招聘网等仅作线索发现，不作为最终公告依据。"
+    }
+  ],
+  "openQuestions": [
+    "区县级教师、医疗、辅警、社区工作者招聘发布较分散，需按目标城市和岗位类型继续下钻。",
+    "广东国企招聘没有统一省级公考入口，应另行按省国资委、市国资委和各集团有限公司官网整理。",
+    "个别系统或年度专题URL可能随年份调整，应在每年公告发布后复核。"
+  ]
+}
